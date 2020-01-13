@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxTestApp", "MindboxTestApp\MindboxTestApp.csproj", "{F8BE5740-D04C-439E-9F80-0BBF7D5EE4A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindboxTestApp", "MindboxTestApp\MindboxTestApp.csproj", "{F8BE5740-D04C-439E-9F80-0BBF7D5EE4A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLibrary", "CoreLibrary\CoreLibrary.csproj", "{499D9D06-BB34-4D27-BFFC-A6D0703EC54C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLibrary", "CoreLibrary\CoreLibrary.csproj", "{499D9D06-BB34-4D27-BFFC-A6D0703EC54C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise2", "Exercise2", "{3C84B8C0-2EFA-4B62-8B0A-FED13F448C68}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Pictures\Diagram.png = ..\..\..\Pictures\Diagram.png
+		SqlQuery.sql = SqlQuery.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
